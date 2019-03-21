@@ -1,5 +1,5 @@
 {
-  "name": "robofriends-vue",
+  "name": "kitty-friends",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,7 +28,12 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "quotes": [
+        "error",
+        "backtick"
+      ]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
