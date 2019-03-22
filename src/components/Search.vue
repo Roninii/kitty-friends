@@ -25,11 +25,7 @@ input {
   border: none;
   border-left: 1px solid #fafafa;
   border-bottom: 1px solid #fafafa;
-<<<<<<< HEAD
   border-radius: 0;
-=======
-  border-radius: none;
->>>>>>> 637042a219137bc1a6ecfb85ed866cb8a652c24c
   color: #fafafa;
 }
 </style>
