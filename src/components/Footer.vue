@@ -39,6 +39,7 @@ a {
 @media screen and (max-width: 900px) {
   .footer-nav {
     font-size: 0.75rem;
+    padding: 0;
   }
 }
 </style>
