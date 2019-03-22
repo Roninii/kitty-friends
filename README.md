@@ -2,7 +2,7 @@
 
 ![Image of kitty-friends](./screenshot.png)
 
-Find you kitty friends! This is just a silly app built in Vuejs that generates cards using the
+Find your kitty friends! This is just a silly app built in Vuejs that generates cards using the
 [robo hash api](https://robohash.org/) for images and the [json placeholder api](https://jsonplaceholder.typicode.com/)
 for placeholder friends!
 
