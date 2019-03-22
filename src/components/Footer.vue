@@ -3,10 +3,10 @@
     <ul class="footer-nav">
       <li class="push">Made with ❤ by Ronnie Villarini</li>
       <li>
-        <a href="#">GitHub</a>
+        <a href="https://github.com/Roninii/kitty-friends">GitHub</a>
       </li>
       <li>
-        <a href="#">Twitter</a>
+        <a href="https://twitter.com/_Ronini">Twitter</a>
       </li>
     </ul>
   </div>
@@ -25,7 +25,7 @@ export default {
   justify-content: flex-end;
   color: #fafafa;
   transition: all 0.5s;
-  padding: 0;
+  padding-left: 0.5rem;
 }
 a {
   color: #fafafa;
