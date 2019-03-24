@@ -3,14 +3,25 @@
     <input
       type="text"
       placeholder="search kitties..."
-      @input="$emit('params-change', $event.target.value)"
+      v-model="params"
+      @input="updateParams(params)"
     >
   </footer>
 </template>
 
 <script>
 export default {
-  name: `Search`
+  name: `Search`,
+  data() {
+    return {
+      params: ``
+    };
+  },
+  methods: {
+    updateParams(params) {
+      this.$store.commit(`UPDATE_SEARCH_FIELD`, params);
+    }
+  }
 };
 </script>
 

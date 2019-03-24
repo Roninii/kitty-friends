@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <h1>Kitty Friends</h1>
-    <Search @params-change="setParams($event)"/>
-    <Card-List :params="searchParams"/>
+    <Search/>
+    <Card-List/>
     <Footer/>
   </div>
 </template>
@@ -18,16 +18,6 @@ export default {
     CardList,
     Search,
     Footer
-  },
-  data() {
-    return {
-      searchParams: ``
-    };
-  },
-  methods: {
-    setParams(params) {
-      this.searchParams = params.trim();
-    }
   }
 };
 </script>

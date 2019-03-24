@@ -19,12 +19,6 @@ export default {
   components: {
     Card
   },
-  props: {
-    params: {
-      type: String,
-      default: ``
-    }
-  },
   data() {
     return {
       catsList: []
@@ -35,7 +29,9 @@ export default {
       if (this.catsList.length) {
         return this.catsList.filter(
           cat =>
-            cat.name.toLowerCase().includes(this.params.toLowerCase()) === true
+            cat.name
+              .toLowerCase()
+              .includes(this.$store.state.searchField.toLowerCase()) === true
         );
       }
       return ``;
