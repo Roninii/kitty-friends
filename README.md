@@ -1,5 +1,7 @@
 # Kitty Friends
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7dde93ea-cb70-42d0-9885-369b5637ae80/deploy-status)](https://app.netlify.com/sites/gallant-visvesvaraya-5456f3/deploys)
+
 ![Image of kitty-friends](./screenshot.png)
 
 Find your kitty friends! This is just a silly app built in Vuejs that generates cards using the
