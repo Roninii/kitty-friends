@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <h1>Kitty Friends</h1>
-    <Search/>
+    <header>
+      <h1>Kitty Friends</h1>
+      <Search/>
+    </header>
     <Card-List/>
     <Footer/>
   </div>
@@ -23,20 +25,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-@font-face {
-  font-family: "SEGA LOGO FONT";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/SEGA.woff") format("woff");
-}
 body {
   margin: 0;
   padding: 0;
@@ -46,6 +34,9 @@ body {
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
+}
+header {
+  text-align: center;
 }
 h1 {
   font-family: "SEGA LOGO FONT";
